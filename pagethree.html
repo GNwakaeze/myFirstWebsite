@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Games</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        header{
+            display: flex;
+        }
+        h1{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .NumberGuessingGame{
+            background-color: rgb(85, 79, 79);
+        }  
+        .chingGame{
+            background-color: rgb(196, 183, 183);
+            color: rgb(32, 26, 26);
+            
+        }  
+        button{
+            padding: 20px;
+            border-radius: 20px;
+            background-color: black;
+            border: 2px solid white;
+            color: silver;
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">Back to homepage</a>
+        <h1>Games</h1>
+    </header>
+
+    <div class="NumberGuessingGame">
+        <h2>Number guessing game</h2>
+        <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+
+        <div class="form">
+        <label for="guessField"><I>Can you guess what the random number is? </I></label>
+        <input type="text" id="guessField" class="guessField">
+        <input type="submit" value="Submit guess" class="guessSubmit">
+        </div>
+
+        <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+        </div>
+    </div>
+
+    <div class="chingGame">
+        <h2>Ching! Chang! WELLA!!</h2>
+    </div>
+
+    <div class="storyGame">
+        <h2>Silly Story Generator</h2>
+        <div>
+            <label for="customname">Enter custom name:</label>
+            <input id="customname" type="text" placeholder="">
+          </div>
+          <div>
+            <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked>
+            <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
+          </div>
+          <div>
+            <button class="randomize">Generate random story</button>
+          </div>
+          <p class="story"></p>
+    </div>
+    <script src="guessingGame.js"></script>
+    <script src="storyGame.js"></script>
+</body>

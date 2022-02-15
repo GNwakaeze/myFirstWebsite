@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <Head>
+       <title>pagetwo</title>
+        <meta charset="uft-8">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body {
+            width: 640px;
+            margin: 0;
+            }
+            .full-img {
+            position: relative;
+            display: block;
+            width: 640px;
+            height: 480px;
+            }
+
+            .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 640px;
+            height: 480px;
+            background-color: rgba(0,0,0,0);
+            }
+
+            button {
+            border: 0;
+            background: rgba(150,150,150,0.6);
+            text-shadow: 1px 1px 1px white;
+            border: 1px solid #999;
+            position: absolute;
+            cursor: pointer;
+            top: 2px;
+            left: 2px;
+            }
+            
+            .thumb-bar img {
+            display: block;
+            width: 20%;
+            float: left;
+            cursor: pointer;
+            }
+        </style>
+    </Head>
+</html>
+
+<body>
+    <a href="index.html">Back to homepage</a> 
+    <h1>Photo Gallery</h1>
+    <p>There isnt much to put on this page right now, so here are a few pics of me</p>
+    
+    <div class="full-img">
+      <img class="displayed-img" src="images/white-dress">
+      <div class="overlay"></div>
+      <button class="dark">Darken</button>
+    </div>
+
+    <div class="thumb-bar">
+
+
+    </div>
+    <script src="page3.js"></script>
+    
+    
+</body>
