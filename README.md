@@ -6,3 +6,6 @@ creating and updating my first website as I learn more about full stack web deve
 
 15-Feb 
 I've created a whole new GitHub account to create repos in a more orderly way that showcases each project and its growth
+
+09-Jul-2024
+I'm back babay!
